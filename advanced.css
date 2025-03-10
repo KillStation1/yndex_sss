@@ -1,0 +1,70 @@
+.text {
+    font-size: 1.4vw;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+.spis {
+    padding: 0;
+}
+
+    .spis div {
+        font-weight: 600;
+        font-size: 1.3vw;
+        line-height: 1.5;
+    }
+
+    .spis ul > li {
+        font-size: 1.2vw;
+        list-style-type: square;
+        line-height: 1.8;
+    }
+
+.two_pictures {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.img_ya_nei {
+    height: 15vw;
+}
+
+.fon {
+    background-color: #0000001e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4vh;
+    }
+
+    h2 {
+        font-size: 3vh;
+    }
+
+    .text {
+        font-size: 2vh;
+    }
+
+    .spis div {
+        font-size: 2vh;
+    }
+
+    .spis ul > li {
+        font-size: 2vh;
+    }
+
+    .img_ya_nei {
+        height: 20vh;
+    }
+}

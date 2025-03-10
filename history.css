@@ -1,0 +1,82 @@
+span {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.text {
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px 0;
+}
+
+.img_office {
+    height: 25vw;
+}
+
+.img_logo_ya {
+    height: 15vw;
+}
+
+.img_service {
+    max-width: 33.333%;
+}
+
+.img_ya_gpt {
+    height: 15vw;
+}
+
+.img_ya_taxi {
+    height: 9vw;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4vh;
+    }
+
+    h2 {
+        font-size: 3vh;
+    }
+
+    .text {
+        font-size: 2vh;
+    }
+
+    .img_office {
+        height: 25vh;
+    }
+
+    .img_logo_ya,
+    .img_ya_gpt {
+        height: 15vh;
+    }
+
+    .img_ya_taxi {
+        height: 9vh;
+    }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .img_service {
+        max-width: 50%;
+    }
+}

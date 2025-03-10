@@ -1,0 +1,74 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.achiv,
+.record,
+.statistics {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    width: 20%;
+    text-align: left;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.right {
+    border-left: 2px solid #000;
+    margin-left: 10px;
+    max-width: 80%;
+    padding: 10px 20px;
+}
+
+    .right ol {
+        list-style-type: decimal;
+        font-size: 1.5vw;
+        line-height: 1.4;
+    }
+
+.text {
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .achiv,
+    .record,
+    .statistics {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        text-align: left;
+        font-size: 2.3vh;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        border: none;
+        border-top: 2px solid #000;
+        text-align: justify;
+        max-width: 100%;
+        padding: 10px 20px;
+    }
+
+        .right ol {
+            font-size: 1.8vh;
+            padding: 0;
+        }
+
+    .text {
+        font-size: 1.8vh;
+    }
+}
